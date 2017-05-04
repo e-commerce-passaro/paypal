@@ -1,0 +1,31 @@
+{
+  "name" : "e-commerce-passaro/paypal",
+  "description" : "Uma biblioteca para integração com o paypal",
+  "version": "0.0.1",
+  "type":"library",
+  "homepage":"https://github.com/e-commerce-passaro/paypal",
+  "time":"2017-05-04 15:50:06",
+  "license":"GPL-3.0+",
+  "authors":[{
+	"name":"Marcel Bezerra da Silva",
+	"email":"marcelbzrra@gmail.com",
+	"role":"developer"
+  }],
+  "support": {
+  	"email":"marcelbzrra@gmail.com",
+  	"issues":"https://github.com/e-commerce-passaro/paypal/issues",
+  	"wiki":"https://github.com/e-commerce-passaro/paypal/wiki",
+  	"source":"https://github.com/e-commerce-passaro/paypal/releases"
+  },
+  "require" : {
+    "php" : ">=7.0",
+    "zendframework/zend-http" : "2.6.0",
+    "zendframework/zend-uri" : "2.5.2"
+  },
+  "keywords" : [ "e-commerce-passaro", "zf3", "ecommerce", "paypal" ],
+  "autoload": {
+        "psr-4": {
+            "Ecompassaro\\Paypal\\": "./src/Paypal"
+        }
+  }
+}
